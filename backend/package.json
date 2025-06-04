@@ -1,0 +1,33 @@
+{
+  "name": "abide-backend",
+  "version": "1.0.0",
+  "description": "Backend for Abide AI Workflow Platform",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron-parser": "^5.2.0",
+    "express": "^4.19.2",
+    "node-cron": "^4.0.7",
+    "openai": "^4.103.0",
+    "uuid": "^11.1.0",
+    "winston": "^3.11.0",
+    "y-websocket": "^3.0.0",
+    "yjs": "^13.6.27"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "@types/node-cron": "^3.0.11",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+} 
